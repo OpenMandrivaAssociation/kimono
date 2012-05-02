@@ -30,12 +30,14 @@ NET/Mono bindings for the KDE libraries.
 %_kde_prefix/lib/mono/qyoto/ktexteditor-dotnet.dll
 %_kde_prefix/lib/mono/qyoto/plasma-dll.dll
 %_kde_prefix/lib/mono/qyoto/nepomuk-dll.dll
+%_kde_prefix/lib/mono/qyoto/akonadi.dll
 %_kde_prefix/lib/mono/gac/kde-dotnet
 %_kde_prefix/lib/mono/gac/khtml-dll
 %_kde_prefix/lib/mono/gac/soprano
 %_kde_prefix/lib/mono/gac/ktexteditor-dotnet
 %_kde_prefix/lib/mono/gac/plasma-dll
 %_kde_prefix/lib/mono/gac/nepomuk-dll
+%_kde_prefix/lib/mono/gac/akonadi
 %_kde_libdir/kde4/kimonopluginfactory.so
 %_kde_libdir/libkhtml-sharp.so
 %_kde_libdir/libnepomuk-sharp.so
@@ -43,6 +45,7 @@ NET/Mono bindings for the KDE libraries.
 %_kde_libdir/libkimono.so
 %_kde_libdir/libktexteditor-sharp.so
 %_kde_libdir/libplasma-sharp.so
+%_kde_libdir/libakonadi-sharp.so
 %_kde_appsdir/plasma_scriptengine_kimono
 %_kde_services/plasma-scriptengine-kimono-applet.desktop
 %_kde_services/plasma-scriptengine-kimono-dataengine.desktop
