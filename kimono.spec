@@ -1,12 +1,12 @@
 Name:		kimono
 Summary:	C# Mono KDE 4 bindings
-Version:	4.8.97
-Release:	1
+Version: 4.9.0
+Release: 1
 Epoch:		1
 Group:		Development/KDE and Qt
 License:	GPLv2 LGPLv2
 URL:		https://projects.kde.org/projects/kde/kdebindings/csharp/kimono
-Source:		ftp://ftp.kde.org/pub/kde/unstable/%{version}/src/%{name}-%{version}.tar.xz
+Source:		ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{name}-%{version}.tar.xz
 Patch0:		kimono-4.7.2-fix-link-against-soprano-index-librairies.patch
 BuildRequires:	kdelibs4-devel
 BuildRequires:	smokekde-devel >= 1:%{version}
