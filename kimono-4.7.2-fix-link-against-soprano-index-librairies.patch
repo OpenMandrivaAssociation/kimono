@@ -1,0 +1,13 @@
+Index: soprano/CMakeLists.txt
+===================================================================
+--- a/soprano/CMakeLists.txt
++++ b/soprano/CMakeLists.txt	2011-10-06 09:50:35.951472296 -0300
+@@ -22,7 +22,7 @@
+ TARGET_LINK_LIBRARIES(soprano-sharp ${SMOKE_SOPRANO_LIBRARY}
+     ${SMOKE_BASE_LIBRARY}
+     ${QYOTO_LIBRARY}
+-    ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY} ${SOPRANO_LIBRARIES} ${SOPRANO_INDEX_LIBRARIES}
++    ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY} ${SOPRANO_LIBRARIES} 
+ 	${SOPRANO_CLIENT_LIBRARIES} ${SOPRANO_SERVER_LIBRARIES})
+ 
+ CSHARP_ADD_LIBRARY(soprano "${SRC_CS}" REFERENCES ${QYOTO_ASSEMBLY} COMPILE_FLAGS /warn:0 /keyfile:${QYOTO_KEYFILE})
