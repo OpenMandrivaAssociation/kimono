@@ -1,7 +1,7 @@
 Name:		kimono
 Summary:	C# Mono KDE 4 bindings
 Version:	4.14.3
-Release:	1
+Release:	2
 Epoch:		1
 Group:		Development/KDE and Qt
 License:	GPLv2 LGPLv2
